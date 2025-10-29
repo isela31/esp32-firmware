@@ -1,0 +1,4 @@
+[submodule "ESP32_Firmware"]
+	path = ESP32_Firmware
+	url = https://github.com/isela31/esp32-firmware.git
+	branch = main
