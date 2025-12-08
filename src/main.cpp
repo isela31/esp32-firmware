@@ -64,7 +64,7 @@ void loop() {
             Serial.println("Unknown command.");
         }
 
-        // ✅ Wait for mechanical controller ONLY here
+        //  Wait for mechanical controller ONLY here
         Serial.println("Waiting for mechanical signal...");
         while (digitalRead(MECH_SIGNAL_PIN) == LOW) {
             delay(20);
@@ -74,7 +74,7 @@ void loop() {
             }
         }
 
-        Serial.println("ACK"); // ✅ ONLY HERE
+        Serial.println("ACK"); //  ONLY HERE
         Serial.println("Mechanical action completed.");
 
         // Reset LEDs
